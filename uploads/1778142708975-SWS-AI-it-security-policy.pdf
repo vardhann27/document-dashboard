@@ -10,7 +10,7 @@
 endobj
 4 0 obj
 <<
-/Length 5551
+/Length 5559
 >>
 stream
 0.5670000000000001 w
@@ -37,14 +37,14 @@ BT
 9.1999999999999993 TL
 0.145 0.388 0.922 rg
 56.6929133858267775 756.8506299212598378 Td
-(GETTING STARTED) Tj
+(COMPLIANCE) Tj
 ET
 BT
 /F2 22 Tf
 25.2999999999999972 TL
 0.059 0.09 0.165 rg
 56.6929133858267775 737.0081102362204319 Td
-(Employee Onboarding Guide) Tj
+(IT & Security Policy) Tj
 ET
 0.15 0.39 0.92 RG
 1.4173228346456694 w
@@ -56,231 +56,224 @@ BT
 12.6499999999999986 TL
 0.145 0.388 0.922 rg
 56.6929133858267775 677.480551181102328 Td
-(Welcome to SWS AI) Tj
+(Purpose) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 660.4726771653542983 Td
-(Congratulations on joining the SWS AI family! This guide will help you get set up, understand your first-week) Tj
+(This policy establishes guidelines for acceptable use of SWS AI's IT systems, data security practices, and) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 644.8821259842519567 Td
-(schedule, and find everything you need to hit the ground running.) Tj
+(incident response procedures. All employees must comply with this policy from Day 1.) Tj
 ET
 BT
 /F2 11 Tf
 12.6499999999999986 TL
 0.145 0.388 0.922 rg
 56.6929133858267775 615.1183464566928478 Td
-(Before Day 1) Tj
+(Acceptable Use of IT Resources) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 598.1104724409448181 Td
-(Before your first day:) Tj
+(Company-issued devices and systems must be used primarily for work purposes. Limited personal use is) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 582.5199212598424765 Td
-(- Complete all documentation sent by HR \(offer letter, NDAs, tax forms\).) Tj
+(tolerated but must not:) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 566.9293700787401349 Td
-(- Set up your company email account using the credentials shared by IT.) Tj
+(- Involve illegal activities.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 551.3388188976377933 Td
-(- Install required software: Slack, Zoom, Jira, GitHub, VS Code.) Tj
+(- Compromise device security.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 535.748267716535338 Td
-(- Read the Code of Conduct and HR Policy documents.) Tj
-ET
-BT
-/F2 11 Tf
-12.6499999999999986 TL
-0.145 0.388 0.922 rg
-56.6929133858267775 505.9844881889763428 Td
-(Day 1 Schedule) Tj
+(- Consume excessive bandwidth.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
-56.6929133858267775 488.9766141732283131 Td
-(9:30 AM – Welcome meeting with HR) Tj
+56.6929133858267775 520.1577165354329964 Td
+(- Include installation of unauthorized software.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.145 0.388 0.922 rg
+56.6929133858267775 490.3939370078739444 Td
+(Password Policy) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 473.3860629921259147 Td
-(10:00 AM – Office/team tour \(virtual walkthrough for remote employees\)) Tj
+(All passwords must:) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 457.795511811023573 Td
-(11:00 AM – Introduction to your direct manager) Tj
+(- Be at least 12 characters long.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 442.2049606299212314 Td
-(12:00 PM – Lunch with the team) Tj
+(- Include uppercase, lowercase, numbers, and special characters.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 426.614409448818833 Td
-(2:00 PM – IT setup and tools walkthrough) Tj
+(- Be unique across different systems.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 411.0238582677164914 Td
-(4:00 PM – Company overview presentation) Tj
+(- Be changed every 90 days.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 395.4333070866140929 Td
-(5:30 PM – Q&A session) Tj
-ET
-BT
-/F2 11 Tf
-12.6499999999999986 TL
-0.145 0.388 0.922 rg
-56.6929133858267775 365.6695275590550409 Td
-(First Week Goals) Tj
+(- Never be shared with colleagues.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
-56.6929133858267775 348.6616535433070112 Td
-(By the end of your first week, you should:) Tj
+56.6929133858267775 379.8427559055117513 Td
+(Use the company-approved password manager \(1Password\) for storage.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.145 0.388 0.922 rg
+56.6929133858267775 350.0789763779526993 Td
+(Data Classification) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 333.0711023622046696 Td
-(- Have met all immediate team members.) Tj
+(SWS AI data is classified into 4 levels:) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 317.480551181102328 Td
-(- Have access to all required tools and systems.) Tj
+(1. Public – Can be shared freely \(marketing materials, blog posts\).) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 301.8899999999999864 Td
-(- Understand your role's key responsibilities.) Tj
+(2. Internal – For employees only \(policies, general communications\).) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 286.2994488188975311 Td
-(- Set up your development environment \(for engineering roles\).) Tj
+(3. Confidential – Limited access \(client data, source code, financial data\).) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 270.7088976377951894 Td
-(- Complete mandatory compliance training in the HR portal.) Tj
-ET
-BT
-/F2 11 Tf
-12.6499999999999986 TL
-0.145 0.388 0.922 rg
-56.6929133858267775 240.9451181102361943 Td
-(Tools & Systems) Tj
+(4. Restricted – Highly sensitive \(credentials, PII, trade secrets\).) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
-56.6929133858267775 223.9372440944881646 Td
-(At SWS AI we use:) Tj
+56.6929133858267775 255.1183464566928478 Td
+(Always handle data according to its classification level.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.145 0.388 0.922 rg
+56.6929133858267775 225.354566929133739 Td
+(Device Security) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 208.3466929133857093 Td
-(- Communication: Slack) Tj
+(All company devices must:) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 192.7561417322833677 Td
-(- Project Management: Jira) Tj
+(- Have full-disk encryption enabled.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 177.1655905511810261 Td
-(- Version Control: GitHub) Tj
+(- Run the latest OS and security patches.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 161.5750393700786844 Td
-(- Documentation: Notion) Tj
+(- Have the company endpoint security software installed.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 145.9844881889763428 Td
-(- Video Calls: Google Meet / Zoom) Tj
+(- Use screen lock \(max 5-minute timeout\).) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 130.3939370078738875 Td
-(- Cloud: AWS \(primary\), GCP \(secondary\)) Tj
-ET
-BT
-/F1 10 Tf
-11.5 TL
-0.2 0.255 0.333 rg
-56.6929133858267775 114.8033858267715459 Td
-(- Code Reviews: GitHub Pull Requests) Tj
+(- Never have unauthorized USB devices connected.) Tj
 ET
 0.97 0.98 0.99 rg
 0. 34.0159842519683977 595.2755905511811534 -34.0157480314960665 re
@@ -290,7 +283,7 @@ BT
 9.1999999999999993 TL
 0.392 0.455 0.545 rg
 56.6929133858267775 14.1734645669290558 Td
-(SWS AI | Employee Onboarding Guide) Tj
+(SWS AI | IT & Security Policy) Tj
 ET
 BT
 /F1 8 Tf
@@ -311,7 +304,7 @@ endobj
 endobj
 6 0 obj
 <<
-/Length 2532
+/Length 3378
 >>
 stream
 1.4173228346456694 w
@@ -321,105 +314,140 @@ BT
 12.6499999999999986 TL
 0.145 0.388 0.922 rg
 56.6929133858267775 785.1970866141732586 Td
-(Your First 30 Days) Tj
+(Access Control) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 768.1892125984252289 Td
-(The first 30 days focus on learning:) Tj
+(Access to systems and data is granted on a need-to-know basis. Employees must:) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 752.5986614173227736 Td
-(- Days 1-7: Orientation, tool setup, team introductions.) Tj
+(- Not share login credentials with anyone.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 737.0081102362204319 Td
-(- Days 8-14: Deep dive into current projects and codebase.) Tj
+(- Not use another employee's credentials.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 721.4175590551180903 Td
-(- Days 15-21: First small tasks or bug fixes under guidance.) Tj
+(- Report lost or stolen devices immediately.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 705.8270078740157487 Td
-(- Days 22-30: Begin contributing independently; first 1:1 with manager.) Tj
+(- Request access revocation for colleagues who have left the company.) Tj
 ET
 BT
 /F2 11 Tf
 12.6499999999999986 TL
 0.145 0.388 0.922 rg
 56.6929133858267775 676.0632283464566399 Td
-(Getting Help) Tj
+(Incident Response) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 659.0553543307086102 Td
-(Don't hesitate to ask for help. Your assigned buddy will support you through the first month. You can also) Tj
+(If you suspect a security incident:) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 643.4648031496062686 Td
-(reach out to:) Tj
+(1. Do not panic or try to fix it yourself.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 627.8742519685039269 Td
-(- Your manager for work-related queries.) Tj
+(2. Immediately notify your manager and IT security team.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 612.2837007874015853 Td
-(- HR \(hr@swsai.in\) for policy-related questions.) Tj
+(3. Preserve evidence — do not delete logs or files.) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 596.69314960629913 Td
-(- IT \(it@swsai.in\) for system access issues.) Tj
-ET
-BT
-/F2 11 Tf
-12.6499999999999986 TL
-0.145 0.388 0.922 rg
-56.6929133858267775 566.9293700787401349 Td
-(Key Contacts) Tj
+(4. Document what you observed \(time, what happened, affected systems\).) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
-56.6929133858267775 549.9214960629921052 Td
-(CEO: Karthik Rajendran | CTO: Nithya Suresh | HR Head: Priya Menon | Engineering Lead: Arun Kumar |) Tj
+56.6929133858267775 581.1025984251967884 Td
+(5. Cooperate fully with the IT investigation.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.145 0.388 0.922 rg
+56.6929133858267775 551.3388188976377933 Td
+(Cloud & Data Storage) Tj
 ET
 BT
 /F1 10 Tf
 11.5 TL
 0.2 0.255 0.333 rg
 56.6929133858267775 534.3309448818897636 Td
-(Design Lead: Sneha Pillai) Tj
+(All work files must be stored in company-approved cloud storage \(Google Drive / AWS S3\). Personal cloud) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 518.7403937007873083 Td
+(storage \(personal Dropbox, iCloud, etc.\) must not contain company data. Sensitive data must never be) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 503.1498425196849666 Td
+(emailed externally without encryption.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.145 0.388 0.922 rg
+56.6929133858267775 473.3860629921259147 Td
+(Third-Party Tools) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 456.378188976377885 Td
+(Installation of third-party software or browser extensions on company devices requires prior IT approval.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.2 0.255 0.333 rg
+56.6929133858267775 440.7876377952755433 Td
+(Unapproved software may introduce vulnerabilities and will be removed remotely.) Tj
 ET
 0.97 0.98 0.99 rg
 0. 34.0159842519683977 595.2755905511811534 -34.0157480314960665 re
@@ -429,7 +457,7 @@ BT
 9.1999999999999993 TL
 0.392 0.455 0.545 rg
 56.6929133858267775 14.1734645669290558 Td
-(SWS AI | Employee Onboarding Guide) Tj
+(SWS AI | IT & Security Policy) Tj
 ET
 BT
 /F1 8 Tf
@@ -610,7 +638,7 @@ endobj
 21 0 obj
 <<
 /Producer (jsPDF 4.2.1)
-/CreationDate (D:20260507120320+05'30')
+/CreationDate (D:20260507120321+05'30')
 >>
 endobj
 22 0 obj
@@ -624,35 +652,35 @@ endobj
 xref
 0 23
 0000000000 65535 f 
-0000008476 00000 n 
-0000010301 00000 n 
+0000009330 00000 n 
+0000011155 00000 n 
 0000000015 00000 n 
 0000000152 00000 n 
-0000005755 00000 n 
-0000005892 00000 n 
-0000008539 00000 n 
-0000008664 00000 n 
-0000008794 00000 n 
-0000008927 00000 n 
-0000009065 00000 n 
-0000009189 00000 n 
-0000009318 00000 n 
-0000009450 00000 n 
-0000009586 00000 n 
-0000009714 00000 n 
-0000009841 00000 n 
-0000009970 00000 n 
-0000010103 00000 n 
-0000010205 00000 n 
-0000010551 00000 n 
-0000010637 00000 n 
+0000005763 00000 n 
+0000005900 00000 n 
+0000009393 00000 n 
+0000009518 00000 n 
+0000009648 00000 n 
+0000009781 00000 n 
+0000009919 00000 n 
+0000010043 00000 n 
+0000010172 00000 n 
+0000010304 00000 n 
+0000010440 00000 n 
+0000010568 00000 n 
+0000010695 00000 n 
+0000010824 00000 n 
+0000010957 00000 n 
+0000011059 00000 n 
+0000011405 00000 n 
+0000011491 00000 n 
 trailer
 <<
 /Size 23
 /Root 22 0 R
 /Info 21 0 R
-/ID [ <F0903BADB179D163FA9FADD9E7128EBA> <F0903BADB179D163FA9FADD9E7128EBA> ]
+/ID [ <EBE04CC1A82049D8D0906DC9F02625E1> <EBE04CC1A82049D8D0906DC9F02625E1> ]
 >>
 startxref
-10741
+11595
 %%EOF
