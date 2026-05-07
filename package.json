@@ -4,8 +4,9 @@
   "description": "Document Management Dashboard",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vardhann27/document-dashboard.git"

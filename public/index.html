@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-left">
+      <h1>📁 DocDash</h1>
+    </div>
+    <div class="header-right">
+      <div class="bell-wrapper" onclick="toggleNotifications()">
+        <span class="bell-icon">🔔</span>
+        <span class="badge" id="badge">0</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- NOTIFICATION DROPDOWN -->
+  <div class="notif-dropdown" id="notifDropdown">
+    <div class="notif-header">
+      <span>Notifications</span>
+      <button onclick="markAllRead()">Mark all read</button>
+    </div>
+    <div id="notifList">
+      <p class="empty-msg">No notifications yet</p>
+    </div>
+  </div>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast"></div>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- UPLOAD SECTION -->
+    <section class="card">
+      <h2>Upload Documents</h2>
+      <div class="drop-zone" id="dropZone">
+        <p>📂 Drag & Drop PDF files here</p>
+        <p>or</p>
+        <label for="fileInput" class="btn">Choose Files</label>
+        <input type="file" id="fileInput" multiple accept=".pdf" hidden />
+      </div>
+      <div id="progressList"></div>
+    </section>
+
+    <!-- DOCUMENT LIST SECTION -->
+    <section class="card">
+      <h2>Uploaded Documents</h2>
+      <table id="fileTable">
+        <thead>
+          <tr>
+            <th>File Name</th>
+            <th>Size</th>
+            <th>Upload Date</th>
+            <th>Status</th>
+            <th>Download</th>
+          </tr>
+        </thead>
+        <tbody id="fileTableBody">
+          <tr><td colspan="5">No files uploaded yet</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
