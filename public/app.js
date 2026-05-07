@@ -130,7 +130,10 @@ function loadFiles() {
           <td>${formatSize(file.size)}</td>
           <td>${formatDate(file.uploaddate)}</td>
           <td><span class="status-tag status-complete">Complete</span></td>
-          <td><button class="download-btn" onclick="downloadFile('${file.filename}')">⬇ Download</button></td>
+          <td>
+            <button class="download-btn" onclick="downloadFile('${file.filename}')">⬇ Download</button>
+            <button class="delete-btn" onclick="deleteFile(${file.id})">🗑 Delete</button>
+          </td>
         </tr>
       `).join('');
     });
@@ -138,7 +141,13 @@ function loadFiles() {
 
 // ─── DOWNLOAD FILE ───
 function downloadFile(filename) {
-  window.open('/download/' + filename, '_blank');
+  // Use a temporary anchor with `download` to force a direct file download
+  const a = document.createElement('a');
+  a.href = '/download/' + encodeURIComponent(filename);
+  a.setAttribute('download', filename);
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
 }
 
 // ─── LOAD NOTIFICATIONS ───
@@ -252,4 +261,16 @@ function formatSize(bytes) {
 function formatDate(iso) {
   const d = new Date(iso);
   return d.toLocaleDateString() + ' ' + d.toLocaleTimeString();
+}
+
+// ─── DELETE FILE ───
+function deleteFile(id) {
+  if (!confirm('Delete this file?')) return;
+  fetch(`/files/${id}`, { method: 'DELETE' })
+    .then(res => res.json())
+    .then(() => loadFiles())
+    .catch(err => {
+      console.error('Delete error', err);
+      showToast('Failed to delete file');
+    });
 }

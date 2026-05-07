@@ -301,3 +301,32 @@ main {
 .download-btn:hover {
   background-color: #1558b0;
 }
+
+/* DELETE BUTTON - visually aligned with download but red */
+.download-btn + .delete-btn {
+  margin-left: 8px;
+}
+
+.delete-btn {
+  background-color: #ef5350; /* warm red */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: 'Livvic', sans-serif;
+  transition: background 0.15s ease, transform 0.08s ease;
+}
+
+.delete-btn:hover {
+  background-color: #e53935;
+  transform: translateY(-1px);
+}
+
+.delete-btn:active {
+  transform: translateY(0);
+}
+
+/* small spacing when delete appears alone (defensive) */
+.delete-btn { margin-left: 6px; }

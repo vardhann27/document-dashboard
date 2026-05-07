@@ -110,6 +110,34 @@ app.get('/notifications', (req, res) => {
   });
 });
 
+// Delete a file by id (remove DB entry and file on disk)
+app.delete('/files/:id', (req, res) => {
+  const id = req.params.id;
+  db.get(`SELECT filename FROM files WHERE id = ?`, [id], (err, row) => {
+    if (err) {
+      console.error('DB select file for delete error:', err);
+      return res.status(500).json({ error: 'DB error' });
+    }
+    if (!row) return res.status(404).json({ error: 'Not found' });
+
+    const filepath = path.join(__dirname, 'uploads', row.filename);
+    fs.unlink(filepath, (unlinkErr) => {
+      if (unlinkErr && unlinkErr.code !== 'ENOENT') {
+        console.error('File unlink error:', unlinkErr);
+        // proceed to remove DB record even if unlink failed
+      }
+
+      db.run(`DELETE FROM files WHERE id = ?`, [id], function (delErr) {
+        if (delErr) {
+          console.error('DB delete file error:', delErr);
+          return res.status(500).json({ error: 'DB error' });
+        }
+        res.json({ success: true });
+      });
+    });
+  });
+});
+
 // Mark all notifications as read
 app.put('/notifications/read-all', (req, res) => {
   db.run(`UPDATE notifications SET isread = 1`, [], () => {
