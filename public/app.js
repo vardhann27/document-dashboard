@@ -141,13 +141,26 @@ function loadFiles() {
 
 // ─── DOWNLOAD FILE ───
 function downloadFile(filename) {
-  // Use a temporary anchor with `download` to force a direct file download
-  const a = document.createElement('a');
-  a.href = '/download/' + encodeURIComponent(filename);
-  a.setAttribute('download', filename);
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
+  // Fetch file as blob and trigger download via blob URL to ensure reliable content
+  fetch('/download/' + encodeURIComponent(filename))
+    .then(res => {
+      if (!res.ok) throw new Error('Download failed');
+      return res.blob();
+    })
+    .then(blob => {
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    })
+    .catch(err => {
+      console.error('Download error', err);
+      showToast('Failed to download file');
+    });
 }
 
 // ─── LOAD NOTIFICATIONS ───
