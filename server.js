@@ -2,6 +2,7 @@ const express = require('express');
 const multer = require('multer');
 const cors = require('cors');
 const path = require('path');
+const fs = require('fs');
 const db = require('./database');
 
 const app = express();
@@ -10,6 +11,12 @@ const PORT = 3000;
 app.use(cors());
 app.use(express.json());
 app.use(express.static('public'));
+
+// Ensure uploads directory exists
+const uploadsDir = path.join(__dirname, 'uploads');
+if (!fs.existsSync(uploadsDir)) {
+  fs.mkdirSync(uploadsDir);
+}
 
 // SSE clients list
 let clients = [];
@@ -48,10 +55,17 @@ app.post('/upload', upload.array('files'), (req, res) => {
   const files = req.files;
   const uploaddate = new Date().toISOString();
 
+  if (!files || !files.length) {
+    return res.status(400).json({ success: false, message: 'No files uploaded' });
+  }
+
   files.forEach(file => {
     db.run(
       `INSERT INTO files (filename, originalname, size, uploaddate, status) VALUES (?, ?, ?, ?, ?)`,
-      [file.filename, file.originalname, file.size, uploaddate, 'complete']
+      [file.filename, file.originalname, file.size, uploaddate, 'complete'],
+      function (err) {
+        if (err) console.error('DB insert file error:', err);
+      }
     );
   });
 
@@ -63,7 +77,8 @@ app.post('/upload', upload.array('files'), (req, res) => {
     db.run(
       `INSERT INTO notifications (message, type, timestamp, isread) VALUES (?, ?, ?, ?)`,
       [message, 'success', timestamp, 0],
-      function () {
+      function (err) {
+        if (err) return console.error('DB insert notification error:', err);
         const notification = { id: this.lastID, message, type: 'success', timestamp, isread: 0 };
         sendNotification(notification);
       }
@@ -76,6 +91,10 @@ app.post('/upload', upload.array('files'), (req, res) => {
 // Get all files
 app.get('/files', (req, res) => {
   db.all(`SELECT * FROM files ORDER BY uploaddate DESC`, [], (err, rows) => {
+    if (err) {
+      console.error('DB select files error:', err);
+      return res.status(500).json({ error: 'DB error' });
+    }
     res.json(rows || []);
   });
 });
@@ -83,6 +102,10 @@ app.get('/files', (req, res) => {
 // Get all notifications
 app.get('/notifications', (req, res) => {
   db.all(`SELECT * FROM notifications ORDER BY timestamp DESC`, [], (err, rows) => {
+    if (err) {
+      console.error('DB select notifications error:', err);
+      return res.status(500).json({ error: 'DB error' });
+    }
     res.json(rows || []);
   });
 });
